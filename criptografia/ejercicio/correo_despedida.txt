@@ -1,0 +1,80 @@
+De: Ana Vargas <a.vargas.old@protonmail.com>
+Para: equipo-sistemas@citc.gob.bo
+Asunto: Antes de irme (leanlo completo, en serio)
+
+Hola equipo,
+
+Se que ya estan revisando mis cosas del escritorio. Van a encontrar un
+archivo viejo, parametros_oficiales.txt, con unos numeros de RSA. Eso
+es del sistema legado de PRUEBA que usabamos hace anos para practicar
+en las capacitaciones internas -- es debil a proposito, cualquiera lo
+factoriza sin drama. Si quieren, haganlo, no pasa nada. Pero esa NO es
+la clave que estan buscando. Se los aviso ahora para que no pierdan el
+tiempo pensando que ya terminaron ahi.
+
+--- parametros_oficiales.txt (encontrado en el escritorio) ---
+n = 121880194762330409219
+e = 65537
+c[0] = 66259993625649758796
+c[1] = 91404289649186354896
+c[2] = 116005212329465329439
+c[3] = 54141744235027694731
+c[4] = 67953752454143820627
+--- fin del archivo ---
+
+Ahora, la posta. Antes de irme deje cifrados un par de mensajes con la
+clave de VERDAD del sistema legado -- la que se regenera con
+regenerar_legado.py, la herramienta que les dejo adjunta. Es la misma
+que usabamos para recuperar accesos cuando alguien se olvidaba una
+clave: le pasan una frase (la que sea) y les devuelve el n
+correspondiente. Ojo, la herramienta nunca muestra p ni q -- eso lo
+tienen que factorizar ustedes, igual que con el archivo de arriba.
+
+El problema es que no les voy a decir la frase asi nomas. Se las dejo
+escondidas en esto que les voy a contar, para que se acuerden de mi
+como corresponde:
+
+Che, 8 anos aca trabajando y todavia me acuerdo cosas raras. Por
+ejemplo la clave del wifi de casa, la que le daba a CUALQUIER visita
+porque nunca me importo nada: "CasaAna2020!". O el apodo que le
+pusimos entre todos a mi primera laptop de la empresa, la que se rompio
+al toque de sacarla de la caja: "ladrillo con teclado". Esas dos ni las
+cuenten, son solo para reirse.
+
+Despues hay dos que si llegue a usar en serio, en momentos distintos.
+Una fue "ya se cayo otra vez el sistema legado" -- empezo como el
+chiste que gritaba alguien del equipo cada vez que el sistema se caia,
+pero en algun momento la termine usando de verdad para algo, hace ya
+bastante. La otra fue "el ultimo backup nunca miente", que empece a
+usar en serio despues de un susto feo con un backup que casi se pierde,
+y que termine reutilizando mas de lo que deberia, mas cerca de cuando
+me fui.
+
+Cifre dos mensajes distintos con la herramienta, uno con cada una de
+esas dos frases. El primero es mas viejo, de la epoca del chiste. El
+segundo es mas reciente, de la ultima vez que toque este sistema antes
+de irme:
+
+Mensaje viejo:
+c[0] = 122014723674232442859
+c[1] = 49496327616537895498
+c[2] = 210095277124991802055
+c[3] = 199287301875931737001
+c[4] = 4254811118206323273
+
+Mensaje reciente:
+c[0] = 185446837785103643558
+c[1] = 152750847571738454713
+c[2] = 165569637861008391551
+c[3] = 174103474729686866711
+c[4] = 41538651588291066035
+
+Lo que recuperen ahi es solo la parte interior de cada mensaje -- el
+formato final de la flag lo arman ustedes a mano, como siempre.
+
+Buena suerte. Y no, mi telefono nuevo (68491023) no tiene nada que ver
+con esto, ni el vuelo que tome para irme (CI-4521), ni el piso de mi
+depto nuevo (401). Son solo datos random que se me escaparon mientras
+escribia esto. No busquen mas de lo que hay.
+
+Ana.

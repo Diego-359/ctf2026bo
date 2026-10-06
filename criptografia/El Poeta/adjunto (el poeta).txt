@@ -1,0 +1,63 @@
+Tras la caida de la Biblioteca de Alejandria, un coptista
+llamado Penelope escondio una palabra de poder entre los pliegues
+de un poema. La palabra, dice la leyenda, abre la puerta del
+laberinto donde descansan todos los algoritmos perdidos.
+
+Penelope tejio su palabra con tres hilos:
+  el hilo de Fibonacci, que crece sumando sus propias sombras;
+  el hilo aureo, cuya razon es la divina proporcion; y
+  el hilo de los eslabones, donde cada paso deja una sombra
+  que alimenta al siguiente.
+
+Solo quien sepa leer el poema, descubrir los dos primeros hilos,
+y desandar el tercero en orden inverso, podra recuperar la palabra
+secreta y atravesar el laberinto.
+
+El ultimo eslabon de la cadena, que Penelope grabo en la piedra,
+es este:
+
+  5cc26c7024e6a71b0da2692e2465b743dd645686dc99a15f74d3cbfbeb981ebe
+
+Que no te engane su longitud: 64 silabas, ni una mas, ni una menos.
+
+A continuacion, el poema.
+
+
+POEMA 
+
+El Hilo de Penelope
+
+En el principio era uno,
+y el uno miro al uno,
+y de su abrazo nacio el dos,
+y dos con uno tejieron tres,
+y tres con dos engendraron cinco,
+y cinco abrio al ocho sus dos puertas perfectas.
+
+Tal es la danza del tallo y la caracola:
+la proporcion que los pitagoricos llamaron divina,
+uno coma seis uno ocho, y luego un tres,
+un numero que nunca termina
+pero que sostiene todos los muros del laberinto.
+
+Cada letra que el transmisor traga
+deja su sombra en la siguiente,
+y la sombra se vuelve padre,
+y el padre se vuelve hijo del siguiente paso,
+encadenados en un rio sin orillas
+que nace en el primer simbolo aureo.
+
+El ultimo eslabon no miente:
+sesenta y cuatro silabas sellan la verdad,
+y quien deshaga el nudo en orden inverso
+vera la palabra que el hilo tejio.
+
+                            -- El Maestro
+
+--- CIPHERTEXT (hex) ---
+
+32725d3049577d2512076aa3da0d56ef09
+
+--- SELLO DE VALIDACION (SHA-256 final) ---
+
+5cc26c7024e6a71b0da2692e2465b743dd645686dc99a15f74d3cbfbeb981ebe

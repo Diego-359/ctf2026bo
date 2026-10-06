@@ -1,0 +1,9 @@
+BOLETIN INTERNO - RED SOMBRA
+Plantilla estandar de difusion diaria. No modificar el encabezado.
+Ref: protocolo-de-continuidad-v3
+Estado operativo: activo
+Distribucion: celula-norte, celula-sur, enlace-tecnico
+Este mensaje se genera automaticamente cada ciclo con la misma
+plantilla para minimizar el tiempo de redaccion manual. Los datos
+variables del dia se anexan por separado, fuera de este boletin.
+-----
